@@ -1,0 +1,222 @@
+:: StoryTitle
+COM355 Twine
+
+
+:: StoryData
+{
+  "ifid": "1466C524-BC04-45B1-8450-6A18F3671E82",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Exiting Library",
+  "zoom": 1
+}
+
+
+:: Arrives {"position":"925,775","size":"100,100"}
+''Mia:'' Hey you, you ready? Let's go.
+
+You walk with Mia, then you ask "what dorm do you live in?"
+
+''Mia:'' In Redwood.
+
+You pause, then ask "isn't Redwood that way though?", while pointing behind you.
+
+<img src="redwood.jpeg" width="350">
+
+''Mia:'' Oh yeah, right.
+
+You both turn and walk the other way. She seems to drop something.
+
+[[Pause, and pick it up for her?->Pick Up]]
+[[Keep walking, she'll catch up.->End 2]]
+
+
+:: End {"position":"350,675","size":"100,100"}
+<img src="tower-close.jpeg" width="350">
+
+''* DING, DING, DING *'', The clock tower bells go off. Echoing throughout campus.
+
+You see a flash ''bang'' in front of you, then the face of the girl.
+
+<img src="https://static.vecteezy.com/system/resources/thumbnails/059/017/440/small/comic-style-explosion-shapes-black-line-art-white-background-dotted-shading-effect-starburst-designs-dynamic-outlines-varied-shapes-hand-drawn-look-digital-illustration-comic-book-element-free-png.png" width="200">
+
+''MYSTERY GIRL:'' Don't ignore me.
+
+You fall, and your world fades to black.
+
+[[Try Again?->Exiting Library]]
+
+
+:: End 2 {"position":"1050,900","size":"100,100"}
+You continue walking while Mia picks up what she dropped.
+
+''Mia:'' HEY!
+
+''* DING, DING, DING *'', The clock tower bells go off. Echoing throughout campus.
+
+<img src="tower-close.jpeg" width="350">
+
+You turn to look at Mia, then a flash ''bang'' in front of you.
+
+<img src="https://static.vecteezy.com/system/resources/thumbnails/059/017/440/small/comic-style-explosion-shapes-black-line-art-white-background-dotted-shading-effect-starburst-designs-dynamic-outlines-varied-shapes-hand-drawn-look-digital-illustration-comic-book-element-free-png.png" width="200">
+
+''Mia:'' LEAVING ME ISN'T NICE!
+
+You hear her before you lose balance, fall, and your world fades to black.
+
+[[Try Again?->Exiting Library]]
+
+
+:: End 3 {"position":"925,1025","size":"100,100"}
+As she pauses, you continue walking.
+
+''Mia:'' HEY!
+
+''* DING, DING, DING *'', The clock tower bells go off. Echoing throughout campus.
+
+<img src="tower-close.jpeg" width="350">
+
+You turn to look at Mia, then a flash ''bang'' in front of you.
+
+<img src="https://static.vecteezy.com/system/resources/thumbnails/059/017/440/small/comic-style-explosion-shapes-black-line-art-white-background-dotted-shading-effect-starburst-designs-dynamic-outlines-varied-shapes-hand-drawn-look-digital-illustration-comic-book-element-free-png.png" width="200">
+
+''Mia:'' DON'T QUESTION ME AGAIN!
+
+You hear her before you lose balance, fall, and your world fades to black.
+
+[[Try Again?->Exiting Library]]
+
+
+:: Exiting Library {"position":"800,525","size":"100,100"}
+<h1>Study Buddies </h1>
+
+<img src="outside-lib.jpeg" width="350">
+
+It's 2:00AM, you stayed on-campus later than you meant to. You have a final exam at 8:30AM. You just pulled a 6-hour study session in the library and the only reason you're leaving is because they're closing. You walk out the door from the Central Ave building and see vast emptiness.
+
+Dim, but not dark.
+
+You hear trees brushing and swishing around in the wind.
+
+<img src="tree-alley.jpeg" width="350">
+
+Your phone buzzes.
+
+''UNKNOWN NUMBER:'' Let's finish studying in my dorm?
+
+As you read the text, you yawn, then you wonder who it could be?
+
+You realize you gave a few students in various classes your phone number to study together, but you're not sure who it is.
+
+[[Ignore the message and go home?->Go to Garage]]
+[[Text back: Who is this?->Text Back]]
+
+
+:: Go to Garage {"position":"675,650","size":"100,100"}
+You decide you need some sleep, and want to go home.
+
+You head towards the parking deck. In front of you, the NJIT Clock Tower in the night.
+
+<img src="tower-far.jpeg" width="350">
+
+As you walk towards the clock tower, a girl comes out from Fenster Hall, she looks at you, and starts walking towards you.
+
+You wonder if she's going towards you, or heading in the direction you just came from?
+
+[[Move towards the right, so there is distance between->Move Right]]
+[[Continue walking straight->Straight]]
+
+
+:: Good End {"position":"450,950","size":"100,100"}
+You see a squirrel come out with bread in its mouth.
+
+You pause.
+
+Reflect on how you look at the moment, before standing straight again.
+
+You say "I really need to go home."
+
+You enter your car and drive home.
+
+<img src="car.jpeg" width="350">
+
+[[Try Again?->Exiting Library]]
+
+
+:: Move Right {"position":"600,800","size":"100,100"}
+You move right, you continue walking towards the clock tower, but alongside the Campus Center.
+
+<img src="campus-center.jpeg" width="350">
+
+The girl keeps her distance, glances at you, and walks in the direction you came from.
+
+As you get closer to the tower, you hear something behind you.
+
+[[Turn around and see what it is?->End]]
+[[Start running to your car?->RUN]]
+
+
+:: Pick Up {"position":"925,900","size":"100,100"}
+You say, "I'll get it."
+
+''Mia:'' Thanks.
+
+You question her, "Why did we go that way first if you live in Redwood?"
+
+''Mia:'' Oh, silly mistake.
+
+You reply, "Yeah maybe, but still weird you don't know your way to your apartment."
+
+[[Mia pauses->End 3]]
+
+
+:: RUN {"position":"700,925","size":"100,100"}
+You run to your car.
+
+You still hear noises behind you.
+
+You are panting, sweating, and exhausted, but you make it to your car. No more noise.
+
+<img src="inside-deck.jpeg" width="350">
+
+Right as you are going to unlock your car, you [[hear something to your right.->Trash Can]]
+
+
+:: Straight {"position":"800,775","size":"100,100"}
+You both get really close to each other.
+
+She glances at you, you glance at her.
+
+''MYSTERY GIRL:'' Hey.
+
+You don't respond, and [[keep walking.->End]]
+
+
+:: Text Back {"position":"925,650","size":"100,100"}
+You text back.
+
+''UNKNOWN NUMBER:'' It's Mia, from Math
+
+You reply, "Hey Mia, yes, I'm down."
+
+''UNKNOWN NUMBER:'' Okay, I see you came out from the library, wait for me there.
+
+You assume she was probably in the library also and wait for her.
+
+[[She arrives, from another dirrection.->Arrives]]
+
+
+:: Trash Can {"position":"575,1050","size":"100,100"}
+You jump and stance in a fight mode.
+
+You hold your key blade between your fingers in a fist.
+
+You scream "WHO IS IT?"
+
+As you begin to pant, sweat, and get nervous, you look at the trash can 5 feet in front.
+
+<img src="trash-can.jpeg" width="350">
+
+It shakes, there is movement inside.
+
+[["Come out!" You scream .->Good End]]
